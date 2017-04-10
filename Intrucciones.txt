@@ -1,0 +1,19 @@
+
+Para la instalacion de este sistema en PHP debe configurarse la URL, local del sitio en el archivo
+"restaurantbonifacio/application/config/config.php" (linea 22)
+
+$config['base_url'] = 'http://localhost/restaurantbonifacio/';
+
+Otro archivo a configurar es de la conexion a la base de datos MYSQL.
+Archivo : "restaurantbonifacio/application/config/database.php" (linea 51)
+
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '';  //  vacio
+$db['default']['database'] = 'resto_bonifacio';   //  base de datos.
+$db['default']['dbdriver'] = 'mysql';
+
+La base de datos ya esta dentro de la carpeta del proyecto -basedatosrestaurant.sql- para importarla.
+
+
+
